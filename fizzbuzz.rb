@@ -12,7 +12,6 @@ def fizzbuzz(int)
 
   else (inf !% 3 || 5)
     "Nil"
-  end
 end
 
 fizzbuzz(3)
