@@ -5,10 +5,12 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   elsif int % 5 == 0
     "Buzz"
-  elsif int % 3 || 5 == 0
+  elsif int % 3 && 5 == 0
     "FizzBuzz"
-  else
+  elsif int !% 3 || 5 == 0
     "nil"
+  else
+    
   end
 end
 
